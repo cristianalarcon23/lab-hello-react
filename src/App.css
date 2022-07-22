@@ -1,5 +1,48 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: left;
   display: flex;
   background-color: lightblue;
+  flex-direction: column;
 }
+
+.button {
+  padding: 10px 5px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  background-color: white;
+}
+.menu {
+  float: right;
+  margin-top: -40px;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.description-text {
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 150px 100px 150px 80px;
+  background-color: white;
+  
+}
+
+.card {
+  padding-right: 30px;
+}
+
